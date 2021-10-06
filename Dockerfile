@@ -1,6 +1,9 @@
 # Specify a base image
 FROM node:12-alpine
 
+# define a Working directory
+WORKDIR /usr/app
+
 # Copy necessary files in my project
 COPY ./ ./
 
